@@ -8,7 +8,7 @@
 module alu_control (
     input  [1:0] ALUOp,      // From Main Control Unit
     input  [2:0] funct3,     // Instruction[14:12]
-    input        funct7b5,   // Instruction[30] = funct7[5]
+    input        funct7b5,   // Instruction[30] = funct7[5] 
     output reg [3:0] alu_ctrl
 );
 
